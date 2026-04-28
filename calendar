@@ -1,0 +1,12 @@
+import calendar
+a=int(input("enter any year: "))
+b=int(input("enter any month: "))
+res=calendar.month(a,b)
+print(res)
+
+
+
+from datetime import date
+a=date(2004,1,14)
+b=date(2026,4,28)
+print("No of days he lived: ",b-a)
