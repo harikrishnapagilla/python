@@ -1,0 +1,8 @@
+a = int(input("Enter num1: "))
+b = int(input("Enter num2: "))
+num = max(a, b)
+while True:
+    if num % a == 0 and num % b == 0:
+        print("LCM :", num)
+        break
+    num=num+1
