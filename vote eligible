@@ -1,0 +1,13 @@
+nam=input("enter nam:")
+gender=input("enter gender:")
+age=int(input("enter age:"))
+if age<=18:
+    print("you are not eligeble to vote",nam)
+if age>60:
+    print("you are eligeble to vote",nam)
+if age>=30 and gender=="m":
+    print("you are eligeble to vote",nam)
+elif age>=26 and gender=="f":
+    print("you are not eligeble to vote",nam)
+else:
+    print("you are not eligeble to vote",nam)
