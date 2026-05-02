@@ -1,0 +1,8 @@
+name=input("enter emp name:")
+sal=int(input("enter salary:"))
+desig=input("enter position:")
+c={'TL':10,'Manager':20,'Fresher':5,'Developer':15}
+tax=sal * (c[desig]/100)
+if desig in c:
+    print("tax")
+    
