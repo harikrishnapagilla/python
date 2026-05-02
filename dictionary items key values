@@ -1,0 +1,15 @@
+a={'name':'hari','age':22,'mark':45}
+a['subject']='vlsi'
+print(a)
+for i in a.items():
+    print(i)
+for i in a.keys():
+    print(i)
+for i in a.values():
+    print(i)
+
+
+a={'name':'hari','age':22,'mark':45}
+a['subject']='vlsi'
+a['name']="virat"
+print(a)
