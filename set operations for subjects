@@ -1,0 +1,20 @@
+maths=["hari","ram","sum","rav","nav"]
+political=['hari','rav','sai','krishna','teja']
+social=['ven','hari','sai','ruth','nithin']
+
+m=set(maths)
+p=set(political)
+s=set(social)
+#3 subjects
+one=list(m&p&s)
+print(one)
+#2 subjects
+a=(m&p)
+b=(p&s)
+c=(s&m)
+print(a)
+print(b)
+print(c)
+
+two=(a|b|c)-(m&p&s)
+print(list(two))
